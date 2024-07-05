@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavagem Automotiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container-main">
+            <div class="logo">
+                <img src="imagens/logo.png" alt="Logo Lavagem Automotiva">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#quem-somos">Quem Somos</a></li>
+                    <li><a href="#fotos">Fotos</a></li>
+                    <li><a href="#agendamento">Agendamento</a></li>
+                    <li><a href="#endereco">Endereço</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://wa.me/seunumero" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com/seuusuario" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="quem-somos">
+            <h1>Quem Somos</h1>
+            <p>Somos uma pequena empresa apaixonada por carros e comprometida em oferecer serviços de lavagem automotiva com alta qualidade. Fundada por um empreendedor de 18 anos com um amor profundo por automóveis, nossa empresa nasceu da necessidade de proporcionar aos nossos clientes uma alternativa acessível e conveniente para manter seus veículos sempre limpos e reluzentes.
+            </p>
+        </section>
+        
+        <section id="fotos">
+            <h1>Fotos</h1>
+            <div class="photos">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+                <img src="foto4.jpg" alt="Foto 4">
+                <img src="foto5.jpg" alt="Foto 5">
+                <img src="foto6.jpg" alt="Foto 6">
+            </div>
+        </section>
+        
+        <section id="agendamento">
+            <h1>Agendamento</h1>
+            <form action="agendar.php" method="post">
+                <label for="data">Escolha uma data:</label>
+                <input type="date" id="data" name="data" required>
+                <button type="submit">Agendar</button>
+            </form>
+        </section>
+        
+        <section id="endereco">
+            <h1>Endereço</h1>
+            <p>R. Joaquim Silveira, 251 - São Sebastião, Porto Alegre - RS, 91060-320</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Lavagem Automotiva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
