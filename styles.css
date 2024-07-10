@@ -109,7 +109,7 @@ nav ul li a {
     gap: 10px;
 }
 
-.social-media img {
+social-media img {
     height: 30px;
 }
 
@@ -134,7 +134,7 @@ section h1 {
     gap: 10px;
 }
 
-.photos img {
+photos img {
     width: calc(33% - 10px);
     height: auto;
 }
